@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.main ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  z-index: -1;
+}
+.main li {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+
+  background-position: center center;
+  background-size: cover;
+  opacity: 0;
+}
+.main li:nth-of-type(1) {
+  background-image: url(images/mountains-min2.jpg);
+  animation: slideIn 40s linear 0s infinite;
+}
+.main li:nth-of-type(2) {
+  background-image: url(images/mount1-min.jpg);
+  animation: slideIn 40s linear 10s infinite;
+}
+.main li:nth-of-type(3) {
+  background-image: url(images/mount2-min.jpg);
+  animation: slideIn 40s linear 20s infinite;
+}
+.main li:nth-of-type(4) {
+  background-image: url(images/mount3-min.jpg);
+  animation: slideIn 40s linear 30s infinite;
+}
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+  /* z-index: 1; */
+  margin: 0;
+  padding: 0;
+}
+.main-text a {
+  text-decoration: none;
+  display: block;
+  width: 250px;
+  margin: 20px;
+  padding: 10px 0px 10px 0px;
+  background-color: coral;
+  border-radius: 4%;
+  color: white;
+}
+.main-text a:hover {
+  color: black;
+}
+main-text h1 {
+  padding: 0;
+  margin: 0;
+}
