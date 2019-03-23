@@ -1,0 +1,22 @@
+{
+  "name": "css_animation_slider_landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucascoorek/css_animation_slider_landing_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucascoorek/css_animation_slider_landing_page/issues"
+  },
+  "homepage": "https://Lucascoorek.github.io/css_animation_slider_landing_page",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
